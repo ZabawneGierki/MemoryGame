@@ -6,7 +6,7 @@ public class MemoryGameManager : MonoBehaviour
 {
     public Sprite[] cardImages; // pair images
     public Sprite cardBack;
-    public GameObject cardPrefab;
+    public GameObject cardPrefab; 
     public Transform gridParent; // where cards go
 
     private MemoryCard firstRevealed;
