@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 86092cd5c16b2f14aab7962cc13f4fa3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 689
+        width: 224
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 285, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70de743e50989744298de6c5caa93a61
+      internalID: -387217304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 684
+        width: 202
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afad9e86effff94b83a776df04dcbae
+      internalID: 1334606836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_2
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 669
+        width: 267
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd26ce166ecbf0a4681908aa33cbcdff
+      internalID: 456354914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_3
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 688
+        width: 184
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eacd56c4d14b742ab59bfed572eb32
+      internalID: 644456972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 361
+        width: 178
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a78b31c8455b704ab5bd3cbbf767538
+      internalID: -1171970871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 376
+        width: 198
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57361e6ba1117f5409b4e32299c7e013
+      internalID: 1651267946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 384
+        width: 265
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d9c68e7a2bca44aa6bceaff0ca32ae
+      internalID: -290274625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 65
+        width: 279
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dc2201ae5a82448b4ff385a822e476
+      internalID: -698953528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 48
+        width: 213
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd7c98813465364eb72aa641c9dfe9f
+      internalID: 312605402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 49
+        width: 274
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ef729e012c96f4ea6b6419e631d58e
+      internalID: -1957780870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_10
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 39
+        width: 218
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5e99f8196ad9647a1ea06f6c113f36
+      internalID: 975354619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 354
+        width: 218
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50906188ac86ac4182279b9a750866e
+      internalID: 609609005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_0: -387217304
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_1: 1334606836
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_10: 975354619
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_11: 609609005
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_2: 456354914
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_3: 644456972
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_4: -1171970871
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_5: 1651267946
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_6: -290274625
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_7: -698953528
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_8: 312605402
+      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_9: -1957780870
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

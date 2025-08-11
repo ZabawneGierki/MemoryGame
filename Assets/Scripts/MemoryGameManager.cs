@@ -1,13 +1,15 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using DG.Tweening; // DOTween
 
 public class MemoryGameManager : MonoBehaviour
 {
-    public Sprite[] cardImages; // pair images
+    public Sprite[] cardImages;
     public Sprite cardBack;
-    public GameObject cardPrefab; 
-    public Transform gridParent; // where cards go
+    public GameObject cardPrefab;
+    public Transform gridParent;
+    public Image hiddenImage; // background image to reveal
 
     private MemoryCard firstRevealed;
     private MemoryCard secondRevealed;
@@ -23,7 +25,6 @@ public class MemoryGameManager : MonoBehaviour
     {
         List<int> ids = new List<int>();
 
-        // create pairs (2 of each)
         for (int i = 0; i < cardImages.Length; i++)
         {
             ids.Add(i);
@@ -40,13 +41,15 @@ public class MemoryGameManager : MonoBehaviour
         totalPairs = cardImages.Length;
         pairsFound = 0;
 
-        // spawn cards
         foreach (var id in ids)
         {
             GameObject cardObj = Instantiate(cardPrefab, gridParent);
             MemoryCard card = cardObj.GetComponent<MemoryCard>();
             card.Init(this, id, cardImages[id], cardBack);
         }
+
+        // Start with the hidden image invisible
+        //hiddenImage.color = new Color(1f, 1f, 1f, 0f);
     }
 
     public void CardRevealed(MemoryCard card)
@@ -77,7 +80,7 @@ public class MemoryGameManager : MonoBehaviour
 
             if (pairsFound >= totalPairs)
             {
-                Debug.Log("You win! Image revealed.");
+                RevealHiddenImage();
             }
         }
         else
@@ -88,5 +91,15 @@ public class MemoryGameManager : MonoBehaviour
 
         firstRevealed = null;
         secondRevealed = null;
+    }
+
+    private void RevealHiddenImage()
+    {
+        hiddenImage.DOFade(1f, 1f)
+            .SetEase(Ease.InOutQuad)
+            .OnComplete(() =>
+            {
+                Debug.Log("You win! Image fully revealed.");
+            });
     }
 }

@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening; // DOTween
 
 public class MemoryCard : MonoBehaviour
 {
-    public int id; // unique ID for matching
+    public int id;
     public Sprite frontImage;
     public Sprite backImage;
 
@@ -40,12 +41,21 @@ public class MemoryCard : MonoBehaviour
 
     private void OnClick()
     {
-        if (!isRevealed)
+        if (!isRevealed && button.interactable)
             gameManager.CardRevealed(this);
     }
 
     public void Remove()
     {
-        gameObject.SetActive(false);
+        button.interactable = false;
+
+        // Fade out over 0.5s
+        imageComponent.DOFade(0f, 0.5f)
+            .SetEase(Ease.Linear)
+            .OnComplete(() =>
+            {
+                // keep it transparent so layout stays intact
+                imageComponent.raycastTarget = false;
+            });
     }
 }
