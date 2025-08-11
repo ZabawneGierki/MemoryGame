@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: 8139916606db82d45929c3081fbc9ebf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1204
+        width: 532
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d86415723b95ff479978767cd6ec56b
+      internalID: -639915646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1240
+        width: 210
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf85930d80e3834c996e72843c01ad8
+      internalID: 929284246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1354
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c650856624764ca012635d4106f07
+      internalID: -877547473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1339
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7314f1cc6933f4349a75f73a982893ed
+      internalID: -1189138855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1208
+        width: 195
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd310fdd0efd11409f23b44a51aebb2
+      internalID: 1111093173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_5
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1354
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7173648f8f78737489f7caf8c76f329b
+      internalID: -701031265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 950
+        width: 301
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd3a0a52771be94dba224c405fae761
+      internalID: -312113735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_7
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1338
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2159de20d86d7d340a71006d8fe13454
+      internalID: -1390630617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1330
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76ac140938281c489fc7f1d6b23b897
+      internalID: 1060894691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 945
+        width: 319
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce95af65770a0046bc91b027339d098
+      internalID: -2005728056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 945
+        width: 230
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611d5b4a62cedcd49bc820832257906b
+      internalID: 1525831247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 945
+        width: 183
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c537e0e0e71409488c2652a0df0e508
+      internalID: 1218671576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_12
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 857
+        width: 238
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62ea4f05ac98494eafb25dc461dc286
+      internalID: 396977294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 685
+        width: 298
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6e84a43123f2a49a2dd487bfa1b5c4
+      internalID: 380683606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 810
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8cb6ddccea2f648876f6413f108eb0
+      internalID: 1714135756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_15
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 681
+        width: 198
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db9f624b86c76a4f913a9baa6fe3ae1
+      internalID: -2040177878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_16
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 681
+        width: 231
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2baf6a45659f04386e0fdb435d2dc5
+      internalID: -777500662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_17
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 697
+        width: 199
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6258ab2670c5d49b8f9257ec6a2863
+      internalID: 352937072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 394
+        width: 330
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b151441c06a4c124996c1fc201b63f20
+      internalID: 222389938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_19
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 394
+        width: 196
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9aa6600c59c1b64b99e28d0254993e0
+      internalID: -885355552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 497
+        width: 4
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0741ab01e095846969c062a2c86f6f
+      internalID: -273963843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_21
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 394
+        width: 237
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245071e470349224fb80573d4956a23e
+      internalID: 1013575258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_22
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 393
+        width: 244
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83031bbcc3b03e94a8f8c97bff7f17df
+      internalID: 562387065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 311
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8c08f5506cca94f860a9db904d0fc9
+      internalID: -1097419658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_24
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 380
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4399a6b900bb24eaac5c9f0f9f79b3
+      internalID: -2054425016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_25
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1
+        width: 235
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e374732ddef4c447b8601abba169d54
+      internalID: 1386459696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 105
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3a59bcd39762046ac4384ab6acc360
+      internalID: -64822991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_27
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de46e2252350f540a916b705f286db5
+      internalID: -1780582345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_28
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1
+        width: 246
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c85c776613f854ab0ad9b8a97f5625
+      internalID: 186386472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_29
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1
+        width: 245
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c17c9c8e2723b46b81aa1f8ff5d703
+      internalID: 898275281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_0: -639915646
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_1: 929284246
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_10: 1525831247
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_11: 1218671576
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_12: 396977294
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_13: 380683606
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_14: 1714135756
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_15: -2040177878
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_16: -777500662
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_17: 352937072
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_18: 222389938
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_19: -885355552
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_2: -877547473
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_20: -273963843
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_21: 1013575258
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_22: 562387065
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_23: -1097419658
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_24: -2054425016
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_25: 1386459696
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_26: -64822991
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_27: -1780582345
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_28: 186386472
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_29: 898275281
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_3: -1189138855
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_4: 1111093173
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_5: -701031265
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_6: -312113735
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_7: -1390630617
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_8: 1060894691
+      20250730_2052_Honey Shapes Spritesheet_simple_compose_01k1eaqrexeb7vj6gdnsbddb70_9: -2005728056
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
