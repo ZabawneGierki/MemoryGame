@@ -23,6 +23,8 @@ public class MemoryGameManager : MonoBehaviour
 
     void SetupBoard()
     {
+        print(SaveData.adress + SaveData.CurrentLevel);
+        hiddenImage.sprite = Resources.Load<Sprite>(SaveData.adress + SaveData.CurrentLevel);
         List<int> ids = new List<int>();
 
         for (int i = 0; i < cardImages.Length; i++)
