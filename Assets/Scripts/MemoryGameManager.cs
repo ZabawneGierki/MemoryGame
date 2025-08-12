@@ -11,6 +11,8 @@ public class MemoryGameManager : MonoBehaviour
     public GameObject cardPrefab;
     public Transform gridParent;
     public Image hiddenImage; // background image to reveal
+    public Button nextLevelButton;
+    public CanvasGroup TsundereEris;
 
     private MemoryCard firstRevealed;
     private MemoryCard secondRevealed;
@@ -19,6 +21,7 @@ public class MemoryGameManager : MonoBehaviour
 
     void Start()
     {
+        FadeErisAtTheStart();
         SetupBoard();
     }
 
@@ -102,11 +105,15 @@ public class MemoryGameManager : MonoBehaviour
             .SetEase(Ease.InOutQuad)
             .OnComplete(() =>
             {
-                Debug.Log("You win! Image fully revealed.");
+                nextLevelButton.interactable = true;
+                
             });
     }
 
-
+    private void FadeErisAtTheStart()
+    {
+        TsundereEris.alpha = 0f;
+    }
     public void NextLevel()
     {
         SaveData.CurrentLevel++;
