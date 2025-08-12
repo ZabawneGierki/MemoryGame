@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using DG.Tweening; // DOTween
+using DG.Tweening;
 
 public class MemoryCard : MonoBehaviour
 {
@@ -13,6 +13,8 @@ public class MemoryCard : MonoBehaviour
     private bool isRevealed = false;
     private MemoryGameManager gameManager;
 
+    private bool isFlipping = false;
+
     public void Init(MemoryGameManager manager, int id, Sprite front, Sprite back)
     {
         gameManager = manager;
@@ -23,38 +25,57 @@ public class MemoryCard : MonoBehaviour
         imageComponent = GetComponent<Image>();
         button = GetComponent<Button>();
 
-        Hide();
+        HideInstant();
         button.onClick.AddListener(OnClick);
+    }
+
+    private void OnClick()
+    {
+        if (!isRevealed && button.interactable && !isFlipping)
+            gameManager.CardRevealed(this);
     }
 
     public void Show()
     {
-        isRevealed = true;
-        imageComponent.sprite = frontImage;
+        FlipTo(frontImage, true);
     }
 
     public void Hide()
+    {
+        FlipTo(backImage, false);
+    }
+
+    public void HideInstant()
     {
         isRevealed = false;
         imageComponent.sprite = backImage;
     }
 
-    private void OnClick()
+    private void FlipTo(Sprite newSprite, bool revealed)
     {
-        if (!isRevealed && button.interactable)
-            gameManager.CardRevealed(this);
+        isFlipping = true;
+        // Rotate halfway
+        transform.DORotate(new Vector3(0, 90, 0), 0.15f).SetEase(Ease.InQuad)
+            .OnComplete(() =>
+            {
+                imageComponent.sprite = newSprite;
+                isRevealed = revealed;
+
+                // Rotate back
+                transform.DORotate(Vector3.zero, 0.15f).SetEase(Ease.OutQuad)
+                    .OnComplete(() => isFlipping = false);
+            });
     }
 
     public void Remove()
     {
         button.interactable = false;
 
-        // Fade out over 0.5s
+        // Fade out the front image over 0.5s
         imageComponent.DOFade(0f, 0.5f)
             .SetEase(Ease.Linear)
             .OnComplete(() =>
             {
-                // keep it transparent so layout stays intact
                 imageComponent.raycastTarget = false;
             });
     }
