@@ -105,6 +105,7 @@ public class MemoryGameManager : MonoBehaviour
             .SetEase(Ease.InOutQuad)
             .OnComplete(() =>
             {
+                MakeErisAppearForAWhile();
                 nextLevelButton.interactable = true;
                 
             });
@@ -114,10 +115,28 @@ public class MemoryGameManager : MonoBehaviour
     {
         TsundereEris.alpha = 0f;
     }
+
+
+    private void MakeErisAppearForAWhile()
+    {
+        Sequence seq = DOTween.Sequence();
+
+        seq.Append(TsundereEris.DOFade(1f, 0.4f))  // Fade in
+           .Append(TsundereEris.DOFade(0f, 0.4f)); // Fade out
+
+
+    }
     public void NextLevel()
     {
         SaveData.CurrentLevel++;
+        if(SaveData.CurrentLevel == 1)
+            EndGame();
         SceneManager.LoadScene(0);
 
+    }
+
+    public void EndGame()
+    {
+        SceneManager.LoadScene(1);
     }
 }
