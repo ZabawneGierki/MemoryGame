@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using DG.Tweening; // DOTween
+using DG.Tweening;
+using UnityEngine.SceneManagement; // DOTween
 
 public class MemoryGameManager : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class MemoryGameManager : MonoBehaviour
 
     void SetupBoard()
     {
-        print(SaveData.adress + SaveData.CurrentLevel);
+         
         hiddenImage.sprite = Resources.Load<Sprite>(SaveData.adress + SaveData.CurrentLevel);
         List<int> ids = new List<int>();
 
@@ -103,5 +104,13 @@ public class MemoryGameManager : MonoBehaviour
             {
                 Debug.Log("You win! Image fully revealed.");
             });
+    }
+
+
+    public void NextLevel()
+    {
+        SaveData.CurrentLevel++;
+        SceneManager.LoadScene(0);
+
     }
 }
