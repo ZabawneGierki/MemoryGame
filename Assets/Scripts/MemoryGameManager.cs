@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using DG.Tweening;
-using UnityEngine.SceneManagement; // DOTween
+using DG.Tweening;  // DOTween
+using UnityEngine.SceneManagement;
 
 public class MemoryGameManager : MonoBehaviour
 {
@@ -122,21 +122,27 @@ public class MemoryGameManager : MonoBehaviour
         Sequence seq = DOTween.Sequence();
 
         seq.Append(TsundereEris.DOFade(1f, 0.4f))  // Fade in
-           .Append(TsundereEris.DOFade(0f, 0.4f)); // Fade out
+           .Append(TsundereEris.DOFade(0f, 1.4f)); // Fade out
 
 
     }
     public void NextLevel()
     {
+        print(SaveData.CurrentLevel);
         SaveData.CurrentLevel++;
-        if(SaveData.CurrentLevel == 1)
+        if(SaveData.CurrentLevel == 10)
+        {
             EndGame();
+            return; //prevents from reloading scene 0.
+        }
+           
         SceneManager.LoadScene(0);
 
     }
 
     public void EndGame()
     {
+        print("wow!");
         SceneManager.LoadScene(1);
     }
 }
