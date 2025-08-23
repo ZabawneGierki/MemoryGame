@@ -1,23 +1,31 @@
-using UnityEngine;
-using UnityEngine.UI;
-using System.Collections.Generic;
 using DG.Tweening;  // DOTween
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MemoryGameManager : MonoBehaviour
 {
+
+    [SerializeField] RandomImageSelector imageSelector;
+    [SerializeField] TextMeshProUGUI counter;
     public Sprite[] cardImages;
     public Sprite cardBack;
     public GameObject cardPrefab;
     public Transform gridParent;
     public Image hiddenImage; // background image to reveal
-    public Button nextLevelButton;
+
     public CanvasGroup TsundereEris;
 
     private MemoryCard firstRevealed;
     private MemoryCard secondRevealed;
     private int totalPairs;
     private int pairsFound;
+
+
+    private string levels = "/10";
+
 
     void Start()
     {
@@ -27,8 +35,8 @@ public class MemoryGameManager : MonoBehaviour
 
     void SetupBoard()
     {
-         
-        hiddenImage.sprite = Resources.Load<Sprite>(SaveData.adress + SaveData.CurrentLevel);
+        UpdateCounter();
+        hiddenImage.sprite = imageSelector.GetRandomUniqueSprite();
         List<int> ids = new List<int>();
 
         for (int i = 0; i < cardImages.Length; i++)
@@ -106,8 +114,8 @@ public class MemoryGameManager : MonoBehaviour
             .OnComplete(() =>
             {
                 MakeErisAppearForAWhile();
-                nextLevelButton.interactable = true;
-                
+                Invoke(nameof(NextLevel), 2f);
+
             });
     }
 
@@ -128,14 +136,16 @@ public class MemoryGameManager : MonoBehaviour
     }
     public void NextLevel()
     {
+        GameData.CurrentLevel++;
+
         print(SaveData.CurrentLevel);
         SaveData.CurrentLevel++;
-        if(SaveData.CurrentLevel == 10)
+        if (SaveData.CurrentLevel == 10)
         {
             EndGame();
             return; //prevents from reloading scene 0.
         }
-           
+
         SceneManager.LoadScene(0);
 
     }
@@ -145,4 +155,11 @@ public class MemoryGameManager : MonoBehaviour
         print("wow!");
         SceneManager.LoadScene(1);
     }
+
+
+    private void UpdateCounter()
+    {
+        counter.text = GameData.CurrentLevel.ToString() + levels;
+    }
+
 }

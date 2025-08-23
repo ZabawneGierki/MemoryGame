@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 53e543a53cfcbe94e97ef709997dfe84
+guid: fef1b06af5f73b74bbdac2a9631b008a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b96b2671f70bf8040a631fcc747e5743
-      internalID: -1026921913
+      spriteID: 88c88028558d4e840a1847192d357aa5
+      internalID: -1245623497
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f13b060e3512a49b3b40c8ace2f491
-      internalID: 1238012796
+      spriteID: 9cb65587dfca1ba438223fd9c22aced4
+      internalID: 74734467
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bad2cd6e262c4074b8c96ac996c525c9
-      internalID: 1115922707
+      spriteID: b8829df6ce311c44294de3911aa01e1a
+      internalID: 1587169072
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39be0ec14f9b39b49a92faf80b14156e
-      internalID: -1017780730
+      spriteID: b1f3067d22d4b48479e8e5e210b240a5
+      internalID: -1554283145
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b7f4688fb12e4546a5dbc713d16a4d6
-      internalID: 1056262314
+      spriteID: d10ddcefa93d96f47aa5ad5428858a3d
+      internalID: -1590130910
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40ca77a878d771546977a0fb25eaf52b
-      internalID: -917955873
+      spriteID: 58d59157713742e4d93fbf4219f61ce5
+      internalID: -1594855434
       vertices: []
       indices: 
       edges: []
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 554f1e80d17d2fb41b7ef8ee23d45d81
-      internalID: -1250298949
+      spriteID: 8cad28b3bdc07094cbf5e5791eb5b98b
+      internalID: 1369138958
       vertices: []
       indices: 
       edges: []
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a964c7b4dc59a6c409d5d0e5632c33ef
-      internalID: -1263861487
+      spriteID: 4a2e6481a4e6d7f4f9aa855a7375d0c8
+      internalID: -628390926
       vertices: []
       indices: 
       edges: []
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34379bd845c5f04880c13c8eaf5f68e
-      internalID: -602431390
+      spriteID: fc03682597f26df4884665af9f9fb03a
+      internalID: -707665269
       vertices: []
       indices: 
       edges: []
@@ -326,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d336d7bde25a972418366fe5347e45c0
-      internalID: 281849217
+      spriteID: c8a3b7dc90bb956499bcf4bae57b9e6a
+      internalID: 59399222
       vertices: []
       indices: 
       edges: []
@@ -347,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e1ea3ca10374047863f8d4a349ef11
-      internalID: 1649483690
+      spriteID: b9a858526c216744f919c09b20293b65
+      internalID: 1516563472
       vertices: []
       indices: 
       edges: []
@@ -368,113 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 714582aa58d4b8e478480ade07b7d9fe
-      internalID: 1906030189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrow-icons_23
-      rect:
-        serializedVersion: 2
-        x: 781
-        y: 148
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8913af232321004d9e814b142755823
-      internalID: 228385208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrow-icons_28
-      rect:
-        serializedVersion: 2
-        x: 1155
-        y: 148
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f84e2d7310b886847ae338bbfc81622b
-      internalID: 236796182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrow-icons_30
-      rect:
-        serializedVersion: 2
-        x: 781
-        y: 118
-        width: 10
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a9527648a7b9394383bd53c4fbe4f06
-      internalID: -2083327286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrow-icons_33
-      rect:
-        serializedVersion: 2
-        x: 1155
-        y: 118
-        width: 9
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f137a2f858754243905a1ea8fe97e96
-      internalID: 74797114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arrow-icons_34
-      rect:
-        serializedVersion: 2
-        x: 1193
-        y: 118
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 814039fcdb4908541ade5bc68aef5a0e
-      internalID: 1231229896
+      spriteID: 038a9aa516e056847a4b4e4e31cb9709
+      internalID: -838831711
       vertices: []
       indices: 
       edges: []
@@ -490,43 +385,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      arrow-icons_0: -1674210249
-      arrow-icons_1: -934876597
-      arrow-icons_10: -1026921913
-      arrow-icons_11: 1238012796
-      arrow-icons_12: 1115922707
-      arrow-icons_13: -1017780730
-      arrow-icons_14: 1056262314
-      arrow-icons_15: -917955873
-      arrow-icons_16: -1250298949
-      arrow-icons_17: -1263861487
-      arrow-icons_18: -602431390
-      arrow-icons_19: 281849217
-      arrow-icons_2: -1885558322
-      arrow-icons_20: 1649483690
-      arrow-icons_21: 1906030189
-      arrow-icons_22: -1960621495
-      arrow-icons_23: 228385208
-      arrow-icons_24: -736412873
-      arrow-icons_25: 497939025
-      arrow-icons_26: -990033989
-      arrow-icons_27: -1764943080
-      arrow-icons_28: 236796182
-      arrow-icons_29: 496810446
-      arrow-icons_3: -299146083
-      arrow-icons_30: -2083327286
-      arrow-icons_31: 946876429
-      arrow-icons_32: 1713796846
-      arrow-icons_33: 74797114
-      arrow-icons_34: 1231229896
-      arrow-icons_35: 1465502381
-      arrow-icons_36: -1626162573
-      arrow-icons_4: -365704302
-      arrow-icons_5: -38765044
-      arrow-icons_6: 11563611
-      arrow-icons_7: -1706926516
-      arrow-icons_8: 1177224093
-      arrow-icons_9: -620977601
+      arrow-icons_0: 864349263
+      arrow-icons_1: -1196486338
+      arrow-icons_10: -1245623497
+      arrow-icons_11: 74734467
+      arrow-icons_12: 1587169072
+      arrow-icons_13: -1554283145
+      arrow-icons_14: -1590130910
+      arrow-icons_15: -1594855434
+      arrow-icons_16: 1369138958
+      arrow-icons_17: -628390926
+      arrow-icons_18: -707665269
+      arrow-icons_19: 59399222
+      arrow-icons_2: 1694215868
+      arrow-icons_20: 1516563472
+      arrow-icons_21: -838831711
+      arrow-icons_22: -456406851
+      arrow-icons_23: -1736691499
+      arrow-icons_24: 1590779464
+      arrow-icons_25: 247297073
+      arrow-icons_26: 948538387
+      arrow-icons_27: 1608866042
+      arrow-icons_28: -341915813
+      arrow-icons_29: 343010602
+      arrow-icons_3: -1478826448
+      arrow-icons_30: 1748056840
+      arrow-icons_31: -735649074
+      arrow-icons_32: 1391128147
+      arrow-icons_33: 266361134
+      arrow-icons_34: -1856107650
+      arrow-icons_35: -12574666
+      arrow-icons_36: -1757748366
+      arrow-icons_4: -1582731960
+      arrow-icons_5: 1294433505
+      arrow-icons_6: 1056525818
+      arrow-icons_7: 434080440
+      arrow-icons_8: -1680620202
+      arrow-icons_9: 478517015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
