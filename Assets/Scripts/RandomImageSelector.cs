@@ -1,25 +1,34 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RandomImageSelector : MonoBehaviour
+public static class RandomImageSelector  
 {
-    private List<Sprite> availableSprites; // pool of unused sprites
+    private static List<Sprite> availableSprites; // pool of unused sprites
 
-    void Awake()
+   private static bool initialized = false;
+
+
+
+
+    public static void Initialize()
     {
+        if (initialized) return;
+        initialized = true;
         // Load all sprites from Resources/Images into the pool
         Sprite[] allSprites = Resources.LoadAll<Sprite>("Images");
         availableSprites = new List<Sprite>(allSprites);
-
         if (availableSprites.Count == 0)
         {
-            print("No sprites found in Resources/Images!");
+            Debug.Log("No sprites found in Resources/Images!");
         }
     }
 
-    public Sprite GetRandomUniqueSprite()
+    public static Sprite GetRandomUniqueSprite()
     {
+
+        Initialize();
         if (availableSprites.Count == 0)
         {
              
@@ -36,4 +45,6 @@ public class RandomImageSelector : MonoBehaviour
 
         return chosen;
     }
+
+    
 }

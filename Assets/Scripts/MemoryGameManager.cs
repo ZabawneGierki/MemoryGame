@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class MemoryGameManager : MonoBehaviour
 {
 
-    [SerializeField] RandomImageSelector imageSelector;
+     
     [SerializeField] TextMeshProUGUI counter;
     public Sprite[] cardImages;
     public Sprite cardBack;
@@ -36,7 +36,7 @@ public class MemoryGameManager : MonoBehaviour
     void SetupBoard()
     {
         UpdateCounter();
-        hiddenImage.sprite = imageSelector.GetRandomUniqueSprite();
+        hiddenImage.sprite = RandomImageSelector.GetRandomUniqueSprite();
         List<int> ids = new List<int>();
 
         for (int i = 0; i < cardImages.Length; i++)
@@ -138,7 +138,7 @@ public class MemoryGameManager : MonoBehaviour
     {
         GameData.CurrentLevel++;
 
-        print(SaveData.CurrentLevel);
+         
         SaveData.CurrentLevel++;
         if (SaveData.CurrentLevel == 10)
         {
@@ -153,13 +153,14 @@ public class MemoryGameManager : MonoBehaviour
     public void EndGame()
     {
         print("wow!");
+        SaveData.CurrentLevel = 1;
         SceneManager.LoadScene(1);
     }
 
 
     private void UpdateCounter()
     {
-        counter.text = GameData.CurrentLevel.ToString() + levels;
+        counter.text = SaveData.CurrentLevel.ToString() + levels;
     }
 
 }
