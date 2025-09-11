@@ -140,7 +140,7 @@ public class MemoryGameManager : MonoBehaviour
 
          
         SaveData.CurrentLevel++;
-        if (SaveData.CurrentLevel == 10)
+        if (SaveData.CurrentLevel == 11)
         {
             EndGame();
             return; //prevents from reloading scene 0.
