@@ -1,4 +1,5 @@
 using DG.Tweening;  // DOTween
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -8,7 +9,10 @@ using UnityEngine.UI;
 public class MemoryGameManager : MonoBehaviour
 {
 
-     
+    // public event to fire when the game is completed
+    public delegate void GameCompleted();
+    public event GameCompleted OnGameCompleted;
+
     [SerializeField] TextMeshProUGUI counter;
     public Sprite[] cardImages;
     public Sprite cardBack;
@@ -16,7 +20,7 @@ public class MemoryGameManager : MonoBehaviour
     public Transform gridParent;
     public Image hiddenImage; // background image to reveal
 
-    public CanvasGroup TsundereEris;
+     
 
     private MemoryCard firstRevealed;
     private MemoryCard secondRevealed;
@@ -29,15 +33,16 @@ public class MemoryGameManager : MonoBehaviour
 
     void Start()
     {
-        FadeErisAtTheStart();
+         
+        UpdateCounter();
         SetupBoard();
     }
 
     void SetupBoard()
     {
-        UpdateCounter();
-        hiddenImage.sprite = RandomImageSelector.GetRandomUniqueSprite();
-        List<int> ids = new List<int>();
+        
+        hiddenImage.sprite =  ImageSelector.GetSpriteById(GameData.CurrentLevel);
+        List<int> ids = new();
 
         for (int i = 0; i < cardImages.Length; i++)
         {
@@ -62,8 +67,7 @@ public class MemoryGameManager : MonoBehaviour
             card.Init(this, id, cardImages[id], cardBack);
         }
 
-        // Start with the hidden image invisible
-        //hiddenImage.color = new Color(1f, 1f, 1f, 0f);
+        
     }
 
     public void CardRevealed(MemoryCard card)
@@ -82,7 +86,7 @@ public class MemoryGameManager : MonoBehaviour
         }
     }
 
-    private System.Collections.IEnumerator CheckMatch()
+    private IEnumerator CheckMatch()
     {
         yield return new WaitForSeconds(0.5f);
 
@@ -113,54 +117,43 @@ public class MemoryGameManager : MonoBehaviour
             .SetEase(Ease.InOutQuad)
             .OnComplete(() =>
             {
-                MakeErisAppearForAWhile();
-                Invoke(nameof(NextLevel), 2f);
+                OnGameCompleted?.Invoke();
+                Invoke(nameof(LoadNextLevel), 2f);
 
             });
     }
 
-    private void FadeErisAtTheStart()
-    {
-        TsundereEris.alpha = 0f;
-    }
+    
 
 
-    private void MakeErisAppearForAWhile()
-    {
-        Sequence seq = DOTween.Sequence();
-
-        seq.Append(TsundereEris.DOFade(1f, 0.4f))  // Fade in
-           .Append(TsundereEris.DOFade(0f, 1.4f)); // Fade out
-
-
-    }
-    public void NextLevel()
+   
+    public void LoadNextLevel()
     {
         GameData.CurrentLevel++;
 
          
-        SaveData.CurrentLevel++;
-        if (SaveData.CurrentLevel == 11)
+         
+        if (GameData.CurrentLevel == GameData.GetImagesCountForCurrentMode() + 1)
         {
             EndGame();
-            return; //prevents from reloading scene 0.
+            return;
         }
 
-        SceneManager.LoadScene(0);
+        
 
     }
 
     public void EndGame()
     {
-        print("wow!");
-        SaveData.CurrentLevel = 1;
+        
+        GameData.CurrentLevel = 0; // Reset the current level to 0
         SceneManager.LoadScene(1);
     }
 
 
     private void UpdateCounter()
     {
-        counter.text = SaveData.CurrentLevel.ToString() + levels;
+        counter.text = GameData.CurrentLevel +1 + levels;
     }
 
 }

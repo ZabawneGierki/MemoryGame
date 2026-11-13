@@ -1,13 +1,43 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
-using UnityEngine;
 
-public static class SaveData  
+[Serializable]
+public class SaveData
 {
-     
+    [Serializable]
+    public struct LevelUnlock
+    {
+        public int levelId;
+        public bool isUnlocked;
+    }
 
-    public static int CurrentLevel = 1;
+    public SaveData()
+    {
+        // Initialize all levels as locked except the first one
+        for (int i = 0; i < GameData.GetImagesCountForCurrentMode(); i++)
+        {
+            unlockedLevels.Add(new LevelUnlock
+            {
+                levelId = i,
+                isUnlocked = false
+            });
+        }
 
+    }
 
-    public static string adress = "Images/";
+    public  bool UnlockLevel(int levelId)
+    {
+        if (levelId < 0 || levelId >= unlockedLevels.Count)
+        {
+            return false; // Invalid level ID
+        }
+        unlockedLevels[levelId] = new LevelUnlock
+        {
+            levelId = levelId,
+            isUnlocked = true
+        };
+        return true; // Level unlocked successfully
+    }
+
+    public List<LevelUnlock> unlockedLevels = new(GameData.GetImagesCountForCurrentMode());
 }

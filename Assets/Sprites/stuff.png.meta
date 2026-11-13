@@ -67,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +80,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +93,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,7 +106,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_0
+      name: coffe
       rect:
         serializedVersion: 2
         x: 42
@@ -133,6 +133,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 285, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -144,16 +145,17 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_1
+      name: phone
       rect:
         serializedVersion: 2
-        x: 286
-        y: 684
+        x: 288
+        y: 685
         width: 202
         height: 299
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -165,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_2
+      name: book
       rect:
         serializedVersion: 2
         x: 521
@@ -175,6 +177,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -186,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_3
+      name: pencil
       rect:
         serializedVersion: 2
         x: 789
@@ -196,6 +199,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -207,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_4
+      name: gel
       rect:
         serializedVersion: 2
         x: 800
@@ -217,6 +221,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -228,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_5
+      name: keys
       rect:
         serializedVersion: 2
         x: 282
@@ -238,6 +243,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -249,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_6
+      name: wallet
       rect:
         serializedVersion: 2
         x: 518
@@ -259,6 +265,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -270,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_7
+      name: shoe
       rect:
         serializedVersion: 2
         x: 26
@@ -280,6 +287,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -291,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_8
+      name: cutlery
       rect:
         serializedVersion: 2
         x: 295
@@ -301,6 +309,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -312,7 +321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_9
+      name: napkins
       rect:
         serializedVersion: 2
         x: 505
@@ -322,6 +331,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -333,7 +343,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_10
+      name: earbugs
       rect:
         serializedVersion: 2
         x: 777
@@ -343,6 +353,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -354,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_11
+      name: watch
       rect:
         serializedVersion: 2
         x: 48
@@ -362,8 +373,9 @@ TextureImporter:
         width: 218
         height: 334
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -375,6 +387,7 @@ TextureImporter:
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -384,19 +397,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_0: -387217304
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_1: 1334606836
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_10: 975354619
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_11: 609609005
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_2: 456354914
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_3: 644456972
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_4: -1171970871
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_5: 1651267946
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_6: -290274625
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_7: -698953528
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_8: 312605402
-      20250811_1145_Cartoon Everyday Stickers_simple_compose_01k2c84afse4vv92b1d5jb4bvk_9: -1957780870
+      book: 456354914
+      coffe: -387217304
+      cutlery: 312605402
+      earbugs: 975354619
+      gel: -1171970871
+      keys: 1651267946
+      napkins: -1957780870
+      pencil: 644456972
+      phone: 1334606836
+      shoe: -698953528
+      wallet: -290274625
+      watch: 609609005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
